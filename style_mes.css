@@ -1,0 +1,138 @@
+body{
+    font-family:'Karla', Arial, Helvetica, sans-serif;
+    font-size:12px ;
+    margin:0;
+    background-color:#F4F4F4; 
+
+}
+
+/* Navi states */
+a:link {
+    color:#2E2E2E;/* dirtgrey_60 */
+    text-decoration: none;}
+a:visited {
+    color:#2E2E2E;} /* dirtgrey_60 */
+a:hover {
+    color:#BFBBB9; /* Cloud_50 */
+    text-decoration: none;}
+a:active{
+	color:#2E2E2E; /* dirtgrey_60 */
+	text-decoration: none;}
+
+.wrapper { /* the cantainer of the whole page*/
+	
+}
+#myworks{ /* the cantainer of the whole page*/
+	width:98vw;
+	margin:0;
+}
+
+
+.joeyweb{ /* Home Button*/
+	float:left;!important
+}
+
+.joeymes{
+	color:#BFBBB9;/* Cloud_50 */
+}
+
+
+nav{
+	background-color:transparent;
+	height: 120px; /* to include logo-image*/
+	min-width: 500px;
+	margin:0;
+	
+	/* fonts sytle */
+	font:Karla;
+	text-align: right;
+	font-style: italic;
+	font-size: 2.33em;
+
+}
+
+nav ul li{
+    display:inline-block;
+	padding-right: 6.45%;	
+}
+
+/* Parallax */
+.parallax-container {
+
+  position: static;
+  overflow: visible;
+  width: 100%;
+  height: 600px;
+}
+.parallax-layer {
+  width: 100%;
+  height: 850px;
+  position: fixed;
+
+}
+
+.layer-0 {/* my head */
+    top: 150px;
+    left:15vw;
+    z-index: 25;
+    background: url('images/mhead01.svg');
+    background-repeat: no-repeat;
+ }
+
+ 
+
+.layer-1 {/* moon*/
+    top: 450px;
+    left:45vw;
+    z-index: -5;
+    background-image: url('images/moon.svg');
+    background-repeat: no-repeat;
+
+     }
+
+.layer-2 {
+
+}
+
+.biography-container{
+
+  color:#2E2E2E;/* dirtgrey_60 */
+  position: absolute;
+  margin-left: 60%;
+  top: 400px;
+  width: 30vw;
+  min-height: 800px;
+}
+
+h1{
+	font-size:42px ;
+  font-style: bolder;!important
+	margin-bottom: 25px;}
+
+h2{
+
+	font-size:18px ;
+  margin-bottom: 50 px;
+  color:#2E2E2E;/* dirtgrey_60 */
+}
+
+
+
+/* Responsive stuff */
+@media (max-width: 950px) {
+  .biography-container {
+     margin-left: 3em;
+     top: 600px;
+     width: 80vw;}
+
+  .parallax-layer {
+  width: 100%;
+  height: 800px;
+  position: absolute;}
+
+  .layer-1 {/* moon*/
+    top: 400px;
+    left:5vw;}
+
+}
+

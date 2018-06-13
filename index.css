@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css?family=Karla:400400i');
+
+body{
+    font-family:'Karla', Arial, Helvetica, sans-serif;
+    font-size:12px ;
+    margin:0;
+    
+    background-color:#4E3F4F; /* Mortar */
+
+}
+
+/* Navi states */
+a:link {
+color:#BFBBB9; /* Cloud_50 */
+text-decoration: none;}
+a:visited { 
+color:#BFBBB9;/* Cloud_50 */
+}
+a:hover {
+color: #D8D4D2; /* Cloud_30 */
+text-decoration: none;
+}
+
+.wrapper { /* the cantainer of the whole page, its id myhome*/
+
+}
+
+#myhome{ /* the cantainer of the whole page*/
+	width:98vw;
+	height: 98vh;
+	margin:0;
+	background-image:url("images/redmoon.svg");
+    background-repeat: no-repeat;
+    background-position: 15%,15%;
+}
+
+
+
+.joeyweb{ /* Home Button*/
+	float:left;!important
+}
+
+
+nav{
+	background-color:transparent;
+	height: 120px; /* to include logo-image*/
+	min-width: 500px;
+	margin:0;
+	 /* fonts sytle */
+	font:Karla;
+	text-align: right;
+	font-style: italic;
+	font-size: 2.33em;
+}
+
+nav ul li{
+	display:inline-block;
+	padding-right: 6.45%;	
+}
+
+.content{
+	min-width: 320px;
+	position:relative;
+}
+
+.role{ 
+	/* display: list-item; */
+	font-size: 2.33em;
+	margin:5em+12.89%;	/* margin: x + y; */
+	text-align: left;
+
+	color:#BFBBB9; /* Cloud_50 */
+}
+
+.slongen { 
+	font-size: 5.83em;
+	margin:6.45%+12.89%;
+	text-align:left;
+	overflow:hidden;
+	line-height: 6.83em；
+}
+
+.one{
+	color:#5769C3;  /* Indigoblue */
+}
+.two{
+	color:#AF534F;  /* Redrust */
+}
+
+/* Responsive stuff */
+/* @media (max-width: 950px) {
+  .joeyweb {
+     margin-left: 3em;
+     top: 600px;
+     width: 80vw;}
+
+
+}*/
